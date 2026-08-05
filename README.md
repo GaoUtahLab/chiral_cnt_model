@@ -1,14 +1,16 @@
-# Circular Dichroism of chiral CNTs and macroscopic CNT architectures with chiral molecules 
+# Calculating circular dichroism involving layers of bi-anisotropic materials
+# and reconfigurable photonic materials
 
 ### Main file info:
 There are 4 python file:
 
 ```bash
-1. "core_CD_torch.py" ## Core transfer matrix code for calculating CD, implemented using PyTorch
-2. "mat.py" ## Chiral material model file
-3. "multilayer_torch_chiral_cnts.py" ## Torch model describing multiple layers consisting of chiral CNTs
-4. "sample_code_chiral_cnts.py" ## An example code to plot CD and absorption of chiral CNT films
+1. "core_CD_torch.py" ## PyTorch-implemented core transfer matrix solver code for calculating CD of multilayers of general bi-anisotropic materials
+2. "mat.py" ## Material model library
+3. "multilayer_torch_isotropic_chiral_cnts.py" ## Example model describing multiple layers consisting of isotropic chiral CNT films
+4. "example_code_isotropic_chiral_cnts.py" ## Example code to plot CD and absorption of isotropic chiral CNT films
 ```
+Notes in mat.py and multilayer_torch_isotropic_chiral_cnts.py files describe how to extend to general bi-anisotropic materials.
 
 ### Environment and system info:
 
@@ -23,7 +25,7 @@ There are 4 python file:
 ### Demo code running
 
 ```bash
-% python sample_code_chiral_cnts.py
+% python example_code_isotropic_chiral_cnts.py
 ```
-It plots two figures displaying calculated CD spectra and absorption spectra for (6,5) and (11,-5) CNTs, respectively. 
+The demo code plots two figures displaying calculated CD spectra and absorption spectra for (6,5) and (11,-5) CNTs, respectively. 
 
