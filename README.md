@@ -1,5 +1,4 @@
-# Calculating circular dichroism involving layers of bi-anisotropic materials
-# and reconfigurable photonic materials
+# Calculating circular dichroism involving layers of bi-anisotropic materials and reconfigurable photonic materials
 
 ### Main file info:
 There are 4 python file:
